@@ -1,0 +1,177 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.2px;
+  color: #f7f7f7;
+  margin: 0;
+  background-color: #20201D;
+  min-height: 100%;
+}
+
+/*TOP NAVIGATION*/
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  font-size: 15px;
+  padding: 30px;
+  position: absolute;
+  z-index: 1;
+  align-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  width: 150px;
+  align-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*BASE STRUCTURE*/
+.container {
+  width: 100%;
+}
+.row {
+  max-width: 60rem;
+  margin: auto;
+  display: block;
+}
+.content {
+  padding: 30px;
+}
+.wrapper {
+  display: flex;
+  padding: 22px;
+}
+.col {
+  width: 50%;
+  float: left;
+}
+
+
+/* SIDEBAR */
+.sidepanel {
+  width: 250px;
+  margin-top: 100px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: fixed;
+  height: 80%;
+  color:#f7f7f7;
+
+}
+.sidepanel [open] > summary .title {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  padding-bottom: 12px;
+  color:#ff6965;
+}
+details[open] > summary:not(:focus) .title {
+  color: #ff6965;
+}
+.sidepanel a.section {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-align: left;
+  line-height: 30px;
+  display: block;
+  text-decoration: none;
+  color: #333;
+  color:#f7f7f7;
+}
+.sidepanel a.sub-section {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-align: left;
+  line-height: 25px;
+  display: block;
+  text-decoration: none;
+  color: #333;
+  padding-left: 20px;
+  color:#f7f7f7;
+}
+.sidepanel a.title:hover,
+.sidepanel a.section:hover,
+.sidepanel a.sub-section:hover {
+  text-decoration: underline;
+}
+
+
+/*WHERE THE ARTICLE IS*/
+.right-col {
+  margin-top: 100px;
+  text-align: left;
+  width: 100%;
+  margin-left: 270px;
+}
+
+
+/* Break Points */
+@media only screen and (max-width: 420px) {
+  .logo {
+      width: 100px;
+  }
+
+  .navbar {
+      height: auto;
+  }
+}
+/* Extra small devices (phones, 650px and down) */
+@media only screen and (max-width: 650px) {
+
+  .logo {
+      width: 115px;
+      margin: -10px 0px;
+  }
+
+  .navbar a {
+      padding-bottom: 5px;
+      margin-left: 40px;
+      margin-right: 0;
+  }
+
+  .main-col {
+      width: 100%;
+  }
+
+
+  .wrapper {
+      display: block;
+  }
+
+  .sidepanel {
+      width: 100%;
+      text-align: center;
+      position: relative;
+      height: auto;
+      align-items: flex-start;
+  }
+
+  .sidepanel a.title,
+  .sidepanel a.section,
+  .sidepanel a.sub-section {
+      text-align: center;
+  }
+
+  .left {
+      margin: 20px auto;
+  }
+
+  .right-col {
+      position: relative;
+      margin-top: 20px;
+      margin-left: 0px;
+
+  }
+}

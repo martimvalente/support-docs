@@ -1,0 +1,49 @@
+.markdown-body {
+  color: #f5f5f5;
+}
+
+.markdown-body a {
+  color:#ff6965;
+}
+
+.markdown-body img {
+  align-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.markdown-body h1 {
+  font-size: 32px;
+}
+
+.markdown-body p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.2rem;
+  text-align:justify;
+}
+
+.markdown-body h1 {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+  line-height: 24px;
+  margin-bottom: 30px;
+  text-align: left;
+  margin-block-start: 20px;
+  margin-block-end: 10px;
+}
+
+.markdown-body p {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 36px;
+}
+
+.markdown-body ol {
+  margin-block-start: 10px;
+}
