@@ -1,8 +1,0 @@
-site_name: Support Documentation
-site_url: https://example.com/
-nav:
-    - Home: index.md
-    - About: about.md
-    - About2: about.md
-
-static_templates:
