@@ -1,1 +1,31 @@
 @import "extensions/tabbed.css";
+
+:root {
+    --md-primary-fg-color:        #EE0F0F;
+    --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark:  #90030C;
+  }
+
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.2px;
+    color: #f7f7f7;
+    margin: 0;
+    background-color: #161B22;
+    height: 100%;
+    min-height: 100%;
+  }
+
+  img {
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .md_header{
+      background-color: firebrick;
+  }
