@@ -14,4 +14,4 @@ Another helpful resource is our [Github Repository](https://github.com/orgs/Prob
 
 If you need any help or would like to suggest and edit, feel free to reach out to our Support team, we're pretty responsive!
 
-#### support@probely.com
+**support@probely.com**
