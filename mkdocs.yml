@@ -9,12 +9,12 @@ copyright: |
 docs_dir: docs/
 
 nav:
-  - Get Started: index.md
+  
   - Overview:  
-    - What is Probely: index1.md
-    - Types of Plans: types-of-targets.md
-    - The Standard Edition: publishing-your-site.md
-    - The Enterprise Edition: publishing-your-site.md
+    - Get Started: index.md
+    - What is Probely: what-is-probely.md
+    - SMB and Enterprise: editions.md
+    - Types of Plans: types-of-plans.md
   - Adding a Target:  
     - Types of Targets: types-of-targets.md
     - Adding a Web Target: publishing-your-site.md
